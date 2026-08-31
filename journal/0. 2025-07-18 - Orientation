@@ -19,5 +19,10 @@
 <br>
 
 ## One small next step
-- [/] Finish the assigned DataCamp Introduction to Python module.
-- [/] Learn more about what a typical data engineering workflow looks like.
+- [x] Finish the assigned DataCamp Introduction to Python module.
+- [x] Learn more about what a typical data engineering workflow looks like.
+
+## Git checkpoint
+- [ ] I created or updated a file
+- [ ] I wrote a commit
+- [ ] I pushed my changes
