@@ -24,13 +24,13 @@ The goal of this repository is not to create perfect notes, but to build a consi
 
 | Session | Topic |
 |----------|----------|
-| 0 | ./0.%202025-07-18%20-%20Orientation.md |
-| 1 | ./1.%202025-07-25%20-%20Data%20Fundamentals.md |
-| 2 | ./2.%202025-08-01%20-%20Problem%20Framing.md |
-| 3 | ./3.%202025-08-08%20-%20Data%20Practices%20and%20Career%20Paths.md |
-| 4 | ./4.%202025-08-15%20-%20Databricks%20Foundations.md |
-| 5 | ./5.%202025-08-22%20-%20SQL%20+%20Data%20Modelling.md |
-| 6 | ./6.%202025-08-29%20-%20Transformations.md |
+| 0 | Orientation |
+| 1 | Data Fundamentals |
+| 2 | Problem Framing |
+| 3 | Data Practices and Career Paths |
+| 4 | Databricks Foundations |
+| 5 | SQL + Data Modelling |
+| 6 | Spark & Transformations |
 
 ---
 
