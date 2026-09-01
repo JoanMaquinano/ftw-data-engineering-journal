@@ -3,10 +3,10 @@
 <br>
 
 ## What I learned
-- Understanding the business is important because data only makes sense when connected to business goals. 【1-e07dba】
-- The main product of a data engineer is trusted, clean data that other teams can use confidently. 【1-e07dba】
-- Data engineering involves more than pipelines. It also includes data architecture, security, orchestration, and operations. 【1-e07dba】
-- GRIT, consistency, and deliberate practice are important for long-term success in tech careers. 【1-e07dba】
+- Understanding the business is important because data only makes sense when connected to business goals. 
+- The main product of a data engineer is trusted, clean data that other teams can use confidently. 
+- Data engineering involves more than pipelines. It also includes data architecture, security, orchestration, and operations. 
+- GRIT, consistency, and deliberate practice are important for long-term success in tech careers. 
 
 <br>
 
