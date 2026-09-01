@@ -1,27 +1,26 @@
 # Journal - 2025-08-29 - Session 6: Spark & Transformations
 
 ## Today in one sentence
-- I learned that a good data engineering project is not just about producing the right answer, but building a system that others can understand, validate, maintain, and reuse. 【1-d3155f】【2-c77f57】
-
+- I learned that a good data engineering project is not just about producing the right answer, but building a system that others can understand, validate, maintain, and reuse. 
 ## What I learned
 - Dimensional modeling starts with the business process, not the tables. We begin by identifying what we want to understand, then determine the grain, facts, dimensions, and eventually arrive at a star schema. 【1-d3155f】【2-c77f57】
-- The grain is the contract of the fact table. In Chinook, one row representing one invoice line preserves more detail than one row per invoice. 【1-d3155f】【2-c77f57】
-- Facts describe what happened and what can be measured, while dimensions provide the context needed to analyze those measurements. Revenue by genre, country, or month all depend on dimensions. 【1-d3155f】【2-c77f57】
-- Normalized models and dimensional models serve different purposes. One is optimized for running the business, while the other is optimized for understanding the business. 【1-d3155f】【2-c77f57】
-- A successful dimensional model should preserve business truth even when the structure changes. Revenue and counts should still match the source system after transformation. 【1-d3155f】【2-c77f57】
-- Validation is a core part of data engineering. We should validate grain, uniqueness, and business metrics before trusting the output. 【1-d3155f】【2-c77f57】
-- A pipeline is software. Creating tables is only part of the work. The project also needs version control, collaboration, documentation, validation, and maintainability. 【1-d3155f】【2-c77f57】
-- Git tracks changes while GitHub enables collaboration. Together they create a history of what changed, why it changed, and who changed it. 【1-d3155f】【2-c77f57】
-- Documentation is engineering infrastructure. README files, architecture diagrams, data models, validation documents, and decision logs all help future engineers understand and maintain a project. 【1-d3155f】【2-c77f57】
-- The Instacart project should demonstrate the full engineering process: Bronze → Silver → Gold, dimensional modeling, validation, Git history, documentation, and dashboards. 【2-c77f57】
+- The grain is the contract of the fact table. In Chinook, one row representing one invoice line preserves more detail than one row per invoice.
+- Facts describe what happened and what can be measured, while dimensions provide the context needed to analyze those measurements. Revenue by genre, country, or month all depend on dimensions.
+- Normalized models and dimensional models serve different purposes. One is optimized for running the business, while the other is optimized for understanding the business.
+- A successful dimensional model should preserve business truth even when the structure changes. Revenue and counts should still match the source system after transformation. 
+- Validation is a core part of data engineering. We should validate grain, uniqueness, and business metrics before trusting the output. 
+- A pipeline is software. Creating tables is only part of the work. The project also needs version control, collaboration, documentation, validation, and maintainability. 
+- Git tracks changes while GitHub enables collaboration. Together they create a history of what changed, why it changed, and who changed it. 
+- Documentation is engineering infrastructure. README files, architecture diagrams, data models, validation documents, and decision logs all help future engineers understand and maintain a project. 
+- The Instacart project should demonstrate the full engineering process: Bronze → Silver → Gold, dimensional modeling, validation, Git history, documentation, and dashboards. 
 
 ## Terms I am still learning
-- **grain** - the level of detail represented by one row in a fact table. 【1-d3155f】【2-c77f57】
-- **fact table** - a table containing measurable business events such as sales. 【1-d3155f】【2-c77f57】
-- **dimension table** - a table providing descriptive context for facts such as customer, date, or product. 【1-d3155f】【2-c77f57】
-- **star schema** - a dimensional model where a central fact table connects to multiple dimension tables. 【1-d3155f】【2-c77f57】
-- **version control** - a system that tracks changes to code and allows teams to collaborate safely. 【1-d3155f】【2-c77f57】
-- **validation** - checks used to verify that transformed data still matches business expectations and source data. 【1-d3155f】【2-c77f57】
+- **grain** - the level of detail represented by one row in a fact table. 
+- **fact table** - a table containing measurable business events such as sales. 
+- **dimension table** - a table providing descriptive context for facts such as customer, date, or product. 
+- **star schema** - a dimensional model where a central fact table connects to multiple dimension tables. 
+- **version control** - a system that tracks changes to code and allows teams to collaborate safely. 
+- **validation** - checks used to verify that transformed data still matches business expectations and source data. 
 
 ## What confused me
 - I understood that star schemas are built around business questions, but I was still not completely confident choosing the correct grain for new datasets.
@@ -41,15 +40,15 @@
 - [x] I pushed my changes
 
 ## Decisions or assumptions (optional)
-- Our team chose an invoice-line level grain because it preserves the detail needed for product, genre, and revenue analysis. 【1-d3155f】【2-c77f57】
-- We assumed that changing the structure of the data should not change the business truth represented by the data. 【1-d3155f】【2-c77f57】
-- We treated documentation as part of the project itself rather than something to add at the end. 【1-d3155f】【2-c77f57】
+- Our team chose an invoice-line level grain because it preserves the detail needed for product, genre, and revenue analysis. 
+- We assumed that changing the structure of the data should not change the business truth represented by the data. 
+- We treated documentation as part of the project itself rather than something to add at the end. 
 
 ## Evidence from today (optional)
-- Chinook dimensional modeling presentation. 【2-c77f57】
-- Grain, fact, and dimension validation exercises. 【1-d3155f】【2-c77f57】
-- Git and GitHub collaboration workflow discussion. 【1-d3155f】【2-c77f57】
-- Instacart engineering project assignment. 【2-c77f57】
+- Chinook dimensional modeling presentation. 
+- Grain, fact, and dimension validation exercises. 
+- Git and GitHub collaboration workflow discussion. 
+- Instacart engineering project assignment. 
 
 ## Reflection (optional)
 - What felt easy today? Understanding why business questions drive dimensional modeling decisions.
