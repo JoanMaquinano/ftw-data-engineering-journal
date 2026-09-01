@@ -1,22 +1,22 @@
 # Journal - 2025-08-15 - Session 4: Databricks Foundations
 
 ## Today in one sentence
-- I learned that good data engineering starts with understanding the data, how it changes, and how it moves through a modern data platform. 【1-b37878】
+- I learned that good data engineering starts with understanding the data, how it changes, and how it moves through a modern data platform. 
 
 ## What I learned
-- Data can be classified as master data, reference data, event data, and metadata, and each serves a different purpose in a business. 【1-b37878】
-- Data can be static, mutable, append-only, or captured as snapshots depending on how it changes over time. 【1-b37878】
-- Different file formats have different strengths. CSV is easy to read, JSON is flexible, and Parquet is more efficient for analytics workloads. 【1-b37878】
-- OLTP systems are optimized for transactions, while OLAP systems are optimized for analysis and reporting. 【1-b37878】
-- Databricks follows an ELT approach and supports the Lakehouse architecture, which combines the flexibility of a data lake with the governance of a data warehouse. 【1-b37878】
-- A data engineer's goal is to produce trusted, clean, and usable data for the business. 【1-b37878】
+- Data can be classified as master data, reference data, event data, and metadata, and each serves a different purpose in a business. 
+- Data can be static, mutable, append-only, or captured as snapshots depending on how it changes over time. 
+- Different file formats have different strengths. CSV is easy to read, JSON is flexible, and Parquet is more efficient for analytics workloads. 
+- OLTP systems are optimized for transactions, while OLAP systems are optimized for analysis and reporting. 
+- Databricks follows an ELT approach and supports the Lakehouse architecture, which combines the flexibility of a data lake with the governance of a data warehouse. 
+- A data engineer's goal is to produce trusted, clean, and usable data for the business. 
 
 ## Terms I am still learning
-- **metadata** - data that describes other data, such as where it came from or how it was processed. 【1-b37878】
-- **OLTP** - systems designed for recording transactions quickly and accurately. 【1-b37878】
-- **OLAP** - systems designed for analysis, reporting, and decision-making. 【1-b37878】
-- **Lakehouse** - a platform that combines features of both data lakes and data warehouses. 【1-b37878】
-- **ELT** - Extract, Load, Transform; data is loaded first and transformed later. 【1-b37878】
+- **metadata** - data that describes other data, such as where it came from or how it was processed. 
+- **OLTP** - systems designed for recording transactions quickly and accurately. 
+- **OLAP** - systems designed for analysis, reporting, and decision-making. 
+- **Lakehouse** - a platform that combines features of both data lakes and data warehouses. 
+- **ELT** - Extract, Load, Transform; data is loaded first and transformed later. 
 
 ## What confused me
 - I was still trying to understand when a company should use a database, data warehouse, data lake, or lakehouse.
@@ -38,8 +38,8 @@
 - I decided to focus on understanding data flow concepts before learning platform-specific tools.
 
 ## Evidence from today (optional)
-- Session 4 notes on Databricks Foundations. 【1-b37878】
-- Sari-sari store Medallion Architecture pipeline assignment. 【1-b37878】
+- Session 4 notes on Databricks Foundations. 
+- Sari-sari store Medallion Architecture pipeline assignment. 
 
 ## Reflection (optional)
 - What felt easy today? Understanding the business examples used to explain data concepts.
