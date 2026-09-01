@@ -3,12 +3,11 @@
 <br>
 
 ## What I learned
-- Data projects should start with understanding the business problem before looking at the data. 【1-5f5e05】
-- Data quality is important because missing, incorrect, or inconsistent data can lead to wrong decisions. 【1-5f5e05】
-- Common data quality checks include completeness, accuracy, consistency, validity, uniqueness, and timeliness. 【1-5f5e05】
-- Data analysis can be descriptive, diagnostic, predictive, or prescriptive depending on the question being answered. 【1-5f5e05】
-- Before fixing data quality issues, it is important to document changes, keep a copy of the original data, and validate the fixes with the business owner. 【1-5f5e05】
-
+- Data projects should start with understanding the business problem before looking at the data. 
+- Data quality is important because missing, incorrect, or inconsistent data can lead to wrong decisions. 
+- Common data quality checks include completeness, accuracy, consistency, validity, uniqueness, and timeliness. 
+- Data analysis can be descriptive, diagnostic, predictive, or prescriptive depending on the question being answered. 
+- Before fixing data quality issues, it is important to document changes, keep a copy of the original data, and validate the fixes with the business owner. 
 <br>
 
 ## What confused me
