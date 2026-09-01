@@ -1,25 +1,25 @@
 # Journal - 2025-08-22 - Session 5: SQL + Data Modelling
 
 ## Today in one sentence
-- I learned that good data modeling is less about creating tables and more about organizing data so it stays accurate, understandable, and useful. 【1-479a9a】
+- I learned that good data modeling is less about creating tables and more about organizing data so it stays accurate, understandable, and useful. 
 
 ## What I learned
-- Data engineering is easy to start learning but difficult to master because technical problems often become data modeling problems. 【1-479a9a】
-- Data normalization helps reduce redundancy, prevent contradictions, and avoid insertion, update, and deletion anomalies. 【1-479a9a】
-- First Normal Form (1NF) focuses on atomic values, proper keys, and avoiding repeating groups. 【1-479a9a】
-- Second Normal Form (2NF) removes partial dependencies, while Third Normal Form (3NF) removes transitive dependencies. 【1-479a9a】
-- OLTP systems prioritize transactional integrity, while OLAP systems are designed for answering business questions and analytics. 【1-479a9a】
-- Data models are usually designed in layers: conceptual, logical, and physical. 【1-479a9a】
-- Different modeling approaches exist, including Kimball, Inmon, Data Vault, Wide Tables, and Medallion Architecture. The best choice depends on business requirements and trade-offs. 【1-479a9a】
-- In dimensional modeling, fact tables represent what happened, while dimension tables provide context such as who, what, when, and where. 【1-479a9a】
+- Data engineering is easy to start learning but difficult to master because technical problems often become data modeling problems. 
+- Data normalization helps reduce redundancy, prevent contradictions, and avoid insertion, update, and deletion anomalies. 
+- First Normal Form (1NF) focuses on atomic values, proper keys, and avoiding repeating groups. 
+- Second Normal Form (2NF) removes partial dependencies, while Third Normal Form (3NF) removes transitive dependencies. 
+- OLTP systems prioritize transactional integrity, while OLAP systems are designed for answering business questions and analytics.
+- Data models are usually designed in layers: conceptual, logical, and physical. 
+- Different modeling approaches exist, including Kimball, Inmon, Data Vault, Wide Tables, and Medallion Architecture. The best choice depends on business requirements and trade-offs.
+- In dimensional modeling, fact tables represent what happened, while dimension tables provide context such as who, what, when, and where. 
 
 ## Terms I am still learning
-- **normalization** - organizing data to reduce duplication and improve consistency. 【1-479a9a】
-- **1NF** - a normal form where each field contains a single value and repeating groups are removed. 【1-479a9a】
-- **referential integrity** - rules that keep relationships between tables valid and consistent. 【1-479a9a】
-- **fact table** - a table that stores business events or transactions. 【1-479a9a】
-- **dimension table** - a table that provides descriptive information about facts. 【1-479a9a】
-- **grain** - the level of detail represented by one row in a fact table. 【1-479a9a】
+- **normalization** - organizing data to reduce duplication and improve consistency. 
+- **1NF** - a normal form where each field contains a single value and repeating groups are removed. 
+- **referential integrity** - rules that keep relationships between tables valid and consistent. 
+- **fact table** - a table that stores business events or transactions. 
+- **dimension table** - a table that provides descriptive information about facts. 
+- **grain** - the level of detail represented by one row in a fact table. 
 
 ## What confused me
 - I understood the theory behind 1NF, 2NF, and 3NF, but I still need more practice identifying violations in real datasets.
@@ -43,7 +43,7 @@
 
 ## Evidence from today (optional)
 - Session 5 notes on SQL and Data Modelling. 【1-479a9a】
-- Examples discussing normalization, dimensional modeling, and star schemas. 【1-479a9a】
+- Examples discussing normalization, dimensional modeling, and star schemas. 
 
 ## Reflection (optional)
 - What felt easy today? Understanding why duplicate or redundant data can cause problems.
