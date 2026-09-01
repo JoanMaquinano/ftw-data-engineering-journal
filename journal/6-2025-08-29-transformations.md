@@ -3,7 +3,7 @@
 ## Today in one sentence
 - I learned that a good data engineering project is not just about producing the right answer, but building a system that others can understand, validate, maintain, and reuse. 
 ## What I learned
-- Dimensional modeling starts with the business process, not the tables. We begin by identifying what we want to understand, then determine the grain, facts, dimensions, and eventually arrive at a star schema. 【1-d3155f】【2-c77f57】
+- Dimensional modeling starts with the business process, not the tables. We begin by identifying what we want to understand, then determine the grain, facts, dimensions, and eventually arrive at a star schema. 
 - The grain is the contract of the fact table. In Chinook, one row representing one invoice line preserves more detail than one row per invoice.
 - Facts describe what happened and what can be measured, while dimensions provide the context needed to analyze those measurements. Revenue by genre, country, or month all depend on dimensions.
 - Normalized models and dimensional models serve different purposes. One is optimized for running the business, while the other is optimized for understanding the business.
