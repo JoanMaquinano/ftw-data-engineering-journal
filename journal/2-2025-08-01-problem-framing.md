@@ -3,11 +3,11 @@
 <br>
 
 ## What I learned
-- A clear problem statement is important because solving the wrong problem can lead to wasted time and effort. 【1-5e5464】
-- Business problems and analysis problems are different. Questions like "What is the best-selling product?" help answer a business problem, but are not the business problem itself. 【1-5e5464】
-- Poor data quality can lead to bad decisions and bad outcomes, which is why data quality is everyone's responsibility, especially data engineers. 【1-5e5464】
-- Responsible data use includes protecting privacy, getting consent, avoiding bias, and documenting methods and assumptions. 【1-5e5464】
-- Data should be used to support decisions with evidence, not just gut feel. 【1-5e5464】
+- A clear problem statement is important because solving the wrong problem can lead to wasted time and effort. 
+- Business problems and analysis problems are different. Questions like "What is the best-selling product?" help answer a business problem, but are not the business problem itself. 
+- Poor data quality can lead to bad decisions and bad outcomes, which is why data quality is everyone's responsibility, especially data engineers. 
+- Responsible data use includes protecting privacy, getting consent, avoiding bias, and documenting methods and assumptions. 
+- Data should be used to support decisions with evidence, not just gut feel. 
 
 <br>
 
