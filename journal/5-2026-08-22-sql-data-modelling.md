@@ -1,4 +1,4 @@
-# Journal - 2025-08-22 - Session 5: SQL + Data Modelling
+# Journal - 2026-08-22 - Session 5: SQL + Data Modelling
 
 ## Today in one sentence
 - I learned that good data modeling is less about creating tables and more about organizing data so it stays accurate, understandable, and useful. 
@@ -37,18 +37,18 @@
 - [x] I wrote a commit
 - [x] I pushed my changes
 
-## Decisions or assumptions (optional)
+## Decisions or assumptions 
 - I decided to focus on understanding fact tables, dimension tables, and grain first before comparing advanced modeling approaches.
 - I assumed that most of the modeling decisions in the upcoming projects would become clearer once I started building actual star schemas.
 
-## Evidence from today (optional)
-- Session 5 notes on SQL and Data Modelling. 【1-479a9a】
+## Evidence from today 
+- Session 5 notes on SQL and Data Modelling. 
 - Examples discussing normalization, dimensional modeling, and star schemas. 
 
-## Reflection (optional)
+## Reflection 
 - What felt easy today? Understanding why duplicate or redundant data can cause problems.
 - What felt difficult today? Keeping track of the differences between normalization levels and modeling frameworks.
 - What do I want to understand better next time? How professional data teams decide between normalized models, star schemas, and Medallion Architecture.
 
-## Mood or meme (optional)
-- "So the answer isn't 'add more tables'... it's 'design better tables.' 🤯"
+## Mood or meme 
+- So the answer isn't 'add more tables'... it's 'design better tables.' 🤯
