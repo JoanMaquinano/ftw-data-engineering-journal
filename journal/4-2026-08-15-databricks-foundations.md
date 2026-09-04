@@ -1,4 +1,4 @@
-# Journal - 2025-08-15 - Session 4: Databricks Foundations
+# Journal - 2026-08-15 - Session 4: Databricks Foundations
 
 ## Today in one sentence
 - I learned that good data engineering starts with understanding the data, how it changes, and how it moves through a modern data platform. 
@@ -33,18 +33,18 @@
 - [ ] I wrote a commit
 - [ ] I pushed my changes
 
-## Decisions or assumptions (optional)
+## Decisions or assumptions 
 - I assumed that understanding data fundamentals first is more important than memorizing Databricks features.
 - I decided to focus on understanding data flow concepts before learning platform-specific tools.
 
-## Evidence from today (optional)
+## Evidence from today 
 - Session 4 notes on Databricks Foundations. 
 - Sari-sari store Medallion Architecture pipeline assignment. 
 
-## Reflection (optional)
+## Reflection 
 - What felt easy today? Understanding the business examples used to explain data concepts.
 - What felt difficult today? Remembering the different platform types and when each should be used.
 - What do I want to understand better next time? How raw data actually moves through Bronze, Silver, and Gold layers in Databricks.
 
-## Mood or meme (optional)
-- "Every answer in data engineering somehow creates three new terms to learn. 😅"
+## Mood or meme 
+- Every answer in data engineering somehow creates three new terms to learn. 😅
