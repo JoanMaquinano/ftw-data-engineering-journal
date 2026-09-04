@@ -1,4 +1,4 @@
-# Journal - 2025-08-08 - Session 3: Data Practices and Career Paths
+# Journal - 2026-08-08 - Session 3: Data Practices and Career Paths
 
 <br>
 
