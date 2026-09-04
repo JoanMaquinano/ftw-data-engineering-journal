@@ -1,4 +1,4 @@
-# Journal - 2025-07-25 - Session 1: Data Fundamentals
+# Journal - 2026-07-25 - Session 1: Data Fundamentals
 
 <br>
 
