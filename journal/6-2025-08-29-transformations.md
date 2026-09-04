@@ -1,7 +1,8 @@
-# Journal - 2025-08-29 - Session 6: Spark & Transformations
+# Journal - 2026-08-29 - Session 6: Spark & Transformations
 
 ## Today in one sentence
-- I learned that a good data engineering project is not just about producing the right answer, but building a system that others can understand, validate, maintain, and reuse. 
+- I learned that a good data engineering project is not just about producing the right answer, but building a system that others can understand, validate, maintain, and reuse.
+  
 ## What I learned
 - Dimensional modeling starts with the business process, not the tables. We begin by identifying what we want to understand, then determine the grain, facts, dimensions, and eventually arrive at a star schema. 
 - The grain is the contract of the fact table. In Chinook, one row representing one invoice line preserves more detail than one row per invoice.
@@ -39,22 +40,22 @@
 - [x] I wrote a commit
 - [x] I pushed my changes
 
-## Decisions or assumptions (optional)
+## Decisions or assumptions 
 - Our team chose an invoice-line level grain because it preserves the detail needed for product, genre, and revenue analysis. 
 - We assumed that changing the structure of the data should not change the business truth represented by the data. 
 - We treated documentation as part of the project itself rather than something to add at the end. 
 
-## Evidence from today (optional)
+## Evidence from today
 - Chinook dimensional modeling presentation. 
 - Grain, fact, and dimension validation exercises. 
 - Git and GitHub collaboration workflow discussion. 
 - Instacart engineering project assignment. 
 
-## Reflection (optional)
+## Reflection
 - What felt easy today? Understanding why business questions drive dimensional modeling decisions.
 - What felt difficult today? Thinking like a data engineer instead of just a SQL user.
 - What do I want to understand better next time? How experienced engineers decide what belongs in Gold and how they validate those decisions.
 - One thing that clicked today: a dashboard is not the product. Trusted and well-documented data is the product.
 
-## Mood or meme (optional)
-- "Last week I thought data engineering was mostly SQL. This week I'm realizing the SQL is just one small piece of the system. 😅"
+## Mood or meme 
+- Last week I thought data engineering was mostly SQL. This week I'm realizing the SQL is just one small piece of the system. 
