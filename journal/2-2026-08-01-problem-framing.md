@@ -1,4 +1,4 @@
-# Journal - 2025-08-01 - Session 2: Problem Framing
+# Journal - 2026-08-01 - Session 2: Problem Framing
 
 <br>
 
