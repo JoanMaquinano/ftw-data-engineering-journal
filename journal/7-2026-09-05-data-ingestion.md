@@ -170,21 +170,21 @@ Useful monitoring metrics:
 - [x] I wrote a commit.
 - [x] I pushed my changes.
 
-## Decisions or assumptions (optional)
+## Decisions or assumptions
 
 - Missing business keys should generally result in a rejection.
 - Missing non-key values may result in warnings depending on business requirements.
 - Data quality should be measured continuously, not only when issues occur.
 - Spark should be used when scale justifies its overhead.
 
-## Evidence from today (optional)
+## Evidence from today 
 
 - Session 7 notes
 - Apache Spark architecture discussion
 - Data quality framework examples
 - Databricks compute management recommendations
 
-## Reflection (optional)
+## Reflection 
 
 ### What felt easy today?
 
@@ -198,6 +198,6 @@ The distributed computing concepts, especially partitions, shuffles, executors, 
 
 I want to understand Spark execution plans, shuffle optimization techniques, and how production teams implement automated data quality monitoring.
 
-## Mood or meme (optional)
+## Mood or meme 
 
 🤯 "Turns out the hardest part of big data isn't the data itself... it's moving the data around."
