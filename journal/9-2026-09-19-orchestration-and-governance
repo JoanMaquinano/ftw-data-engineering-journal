@@ -20,12 +20,12 @@
 - Difference between `MERGE INTO` vs `INSERT INTO` when handling duplicates.
 
 ## One small next step
-- [ ] Try a hands-on example of MERGE vs INSERT INTO with sample tables.
+- [x] Try a hands-on example of MERGE vs INSERT INTO with sample tables.
 
 ## Git checkpoint
-- [ ] I created or updated a file
-- [ ] I wrote a commit
-- [ ] I pushed my changes
+- [x] I created or updated a file
+- [x] I wrote a commit
+- [x] I pushed my changes
 
 ## Decisions or assumptions (optional)
 - DB Repos are better than built-in notebook versioning when Git branches are involved.
