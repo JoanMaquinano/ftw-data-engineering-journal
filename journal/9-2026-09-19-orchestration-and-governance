@@ -1,0 +1,75 @@
+# Journal - 2026-09-26 - Session 9 Orchestration & Governance
+
+## Today in one sentence
+- Learned orchestration, governance, and how CI/CD connects development to production.
+
+## What I learned
+- CI/CD is a process, not just a GitHub action; it separates integration (change) from delivery (gatekeeping).
+- Orchestration involves sequencing tasks correctly with dependencies, triggers, and safe recovery strategies.
+- Governance starts with engineering discipline: naming, ownership, permissions, and documentation.
+- Autoloader ingests only new files; MERGE avoids duplicates; UNION combines datasets without duplication.
+
+## Terms I am still learning
+- **Autoloader** - automatically ingests new files each run.
+- **MERGE** - SQL operation to update/insert while avoiding duplicates.
+- **Pivot** - reshaping data from long to wide format.
+- **DLT pipeline** - tracks table lineage and data quality stats.
+
+## What confused me
+- COPY INTO behavior: why new data wasn’t copied (idempotent, already copied yesterday).
+- Difference between `MERGE INTO` vs `INSERT INTO` when handling duplicates.
+
+## One small next step
+- [ ] Try a hands-on example of MERGE vs INSERT INTO with sample tables.
+
+## Git checkpoint
+- [ ] I created or updated a file
+- [ ] I wrote a commit
+- [ ] I pushed my changes
+
+## Decisions or assumptions (optional)
+- DB Repos are better than built-in notebook versioning when Git branches are involved.
+- Streaming tables are most compatible with Autoloader.
+
+## Evidence from today (optional)
+- Notebook screenshots on orchestration and governance.
+- SQL snippets for COPY INTO, MERGE, UNION.
+
+## Reflection (optional)
+- Easy: grasping CI/CD as a feedback loop.
+- Difficult: distinguishing orchestration concepts (retry vs rerun vs backfill).
+- Next time: practice parameterization and scheduling with cron syntax.
+
+## Mood or meme (optional)
+- Feeling like: 🚀 "Ship it!" but cautiously, because automation can also automate errors.
+
+- Questions
+    - COPY INTO used, why wasn’t new data not copied → It was already copied yesterday (idempotent).
+    - SQLite what to use in USING → org.apache.spark.sql.qslite.
+    - Only ingest new files in each run → Autoloader.
+    - Needs to create new table in path to csv → USING csv.
+    - Which is most compatible with auto loader → Streaming tables.
+    - Which writes data and avoid duplicate record → MERGE.
+    - March and April data loaded with no duplicate. How to join → UNION.
+    - When to use merge into vs insert into → When target table cannot contain duplicate records.
+    - How to convert long to wide → Pivot.
+    - Wants to create UDF → CREATE FUNCTION, STRING.
+    - Has a single-task job, wants to run notebook prior to task → Add as new task in existing job and set dependency.
+    - To submit the schedule programmatically → Cron syntax.
+    - Alert email to user when job fails → Alert in job.
+    - Tasks run nightly. How to improve speed → Use clusters from cluster pool.
+    - Which should be used outside Databricks → Merge.
+    - Should he use built-in DB notebooks or DB repos for versioning → DB repos (branching).
+    - Live table with streaming live table → Tables updated at intervals but persist.
+    - To get changes GH → Pull.
+    - Advantage of DB repo over DB notebooks versioning → Branching.
+    - Table is being dropped. How to track → DLT pipeline, view DQ stats.
+    - Wants to be updated every minute, minimize $ beyond 1 week → End schedule on certain date.
+    - How to send message when NULL reaches 100 → Webhook.
+    - Why notebook is running slowly → Jobs UI > active run.
+    - How to compact small files → OPTIMIZE.
+    - Transfer ownership → Workspace admin.
+    - Identify owner of table → Owner field in Data Explorer.
+    - Grant full permissions to a team → GRANT ALL PRIVILEGES.
+    - Grant permission on whole database → GRANT USAGE ON DATABASE.
+    - Review permissions on table → Data Explorer.
